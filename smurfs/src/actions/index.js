@@ -24,7 +24,7 @@ export const addSmurf = (smurf) => (dispatch) => {
 
   axios
     .post(baseUrl, smurf)
-    .then((data) => dispatch({ type: ADDED_SMURF }))
+    .then((data) => dispatch({ type: ADDED_SMURF, payload: data }))
     .catch((err) => dispatch({ type: ADD_SMURF_FAILED }));
 
   fetchData();

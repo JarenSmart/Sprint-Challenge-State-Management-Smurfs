@@ -35,7 +35,7 @@ const SmurfForm = (props) => {
         />
         <input
           placeholder="Age..."
-          type="text"
+          type="num"
           name="age"
           value={props.age}
           onChange={handleChange}
