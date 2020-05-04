@@ -1,11 +1,4 @@
-import {
-  FETCHING_DATA,
-  FETCH_SUCCESS,
-  FETCH_FAILED,
-  ADDING_SMURF,
-  ADDED_SMURF,
-  ADD_SMURF_FAILED,
-} from "../actions/index";
+import { FETCH_SUCCESS } from "../actions/index";
 
 const initialState = {
   smurf: {

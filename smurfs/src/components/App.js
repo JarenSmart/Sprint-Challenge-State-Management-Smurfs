@@ -10,7 +10,7 @@ import Smurf from "./Smurf";
 function App(props) {
   useEffect(() => {
     props.fetchData();
-  }, []);
+  });
 
   return (
     <div className="App">
