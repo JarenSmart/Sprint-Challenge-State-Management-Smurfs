@@ -24,7 +24,7 @@ const SmurfForm = (props) => {
   };
 
   return (
-    <div className="new-smurf">
+    <div className="new-smurf-form">
       <form onSubmit={handleSubmit}>
         <input
           placeholder="Name..."
@@ -47,7 +47,7 @@ const SmurfForm = (props) => {
           value={props.height}
           onChange={handleChange}
         />
-        <input type="submit" />
+        <input type="submit" onSubmit={handleSubmit} />
       </form>
     </div>
   );
